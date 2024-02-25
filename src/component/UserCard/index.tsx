@@ -45,6 +45,7 @@ interface UserCardProps {
   saveBtn:boolean;
 }
 
+
 const UserCard: React.FC<UserCardProps> = ({ user ,saveBtn}) => {
   const [showWeatherModal, setShowWeatherModal] = useState<boolean>(false);
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
