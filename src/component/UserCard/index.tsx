@@ -85,7 +85,7 @@ const UserCard: React.FC<UserCardProps> = ({ user ,saveBtn}) => {
   };
 
   return (
-    <li className=" relative mx-auto mt-3 bg-white rounded-xl shadow-md overflow-hidden w-[300px] flex flex-col ">
+    <li className=" relative mx-auto mt-3 bg-white rounded-xl shadow-md overflow-hidden w-[300px] h-[400px] flex flex-col ">
       <div className="flex items-center justify-center">
     <img className="object-cover mt-2" src={getImageSrc()} alt="Profile" />
   </div>
